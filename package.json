@@ -1,0 +1,17 @@
+{
+  "name"        : "msession.js",
+  "version"     : "0.0.1",
+  "description" : "A small node.js module for managing sessions. It is built for use with http but might be useful elsewhere.",
+  "author"      : "Mattias Runge <mattias@runge.se>",
+  "dependencies": {
+  },
+  "engines"     : {
+    "node": ">= 0.8.0"
+  },
+  "main"        : "msession.js",
+  "license"     : "GPLv2",
+  "repository"  : {
+    "type"  : "git",
+    "url"   : "https://github.com/mattiasrunge/msession.js.git"
+  }
+}
