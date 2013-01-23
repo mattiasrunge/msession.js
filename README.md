@@ -5,7 +5,8 @@ A simple http session module to use with node.js. It provides a clean interface 
 
 ## Usage
 
-    $ var sessionManager = new require('msession').Manager();
+    $ var SessionManager = require('msession.js').Manager;
+    $ var sessionManager = new SessionManager();
     $
     $ function httpRequestHandler(request, response)
     $ {

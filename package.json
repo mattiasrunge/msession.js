@@ -1,6 +1,6 @@
 {
   "name"        : "msession.js",
-  "version"     : "0.0.1",
+  "version"     : "0.0.2",
   "description" : "A small node.js module for managing sessions. It is built for use with http but might be useful elsewhere.",
   "author"      : "Mattias Runge <mattias@runge.se>",
   "dependencies": {
