@@ -32,7 +32,7 @@ function Session(options, document)
   self.save = function(callback)
   {
     var filename = options.pathPrefix + self.getId();
-
+console.log(filename);
     fs.writeFile(filename, JSON.stringify(self.document), function(error)
     {
       if (error)
@@ -168,7 +168,8 @@ function SessionManager(options)
     {
       if (error)
       {
-        callback(error);
+        console.log(error);
+        callback(null, false, cookies);
         return;
       }
 
